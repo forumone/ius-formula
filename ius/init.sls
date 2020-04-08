@@ -1,4 +1,4 @@
 install-ius-repo:
   pkg.installed:
     - sources:
-      - ius-release: https://centos6.iuscommunity.org/ius-release.rpm
+      - ius-release: https://repo.ius.io/ius-release-el6.rpm
