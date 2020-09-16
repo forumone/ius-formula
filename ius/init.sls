@@ -1,3 +1,8 @@
+uninstall-old-ius:
+  pkg.purged:
+    - name: ius-release
+    - version: 1.0-14.ius.centos6
+    
 install-ius-repo:
   pkg.installed:
     - sources:
