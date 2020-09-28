@@ -10,4 +10,4 @@ install-ius-repo:
 
 install-ius-repo-update:
   cmd.run:
-    - name: 'yum clean && yum update -y'
+    - name: 'yum clean all && yum update -y'
